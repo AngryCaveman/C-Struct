@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/4/7 21:04:34。
+     1>项目“E:\win7系统下的项目\专业课作业\我想学\C++数据结构\预备\testProject1\testProject1\testProject1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test2.cpp
+         test2.cpp
+     1>e:\win7系统下的项目\专业课作业\我想学\c++数据结构\预备\testproject1\testproject1\test2.cpp(21): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\win7系统下的项目\专业课作业\我想学\c++数据结构\预备\testproject1\testproject1\test2.cpp(22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\win7系统下的项目\专业课作业\我想学\c++数据结构\预备\testproject1\testproject1\test2.cpp(25): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\win7系统下的项目\专业课作业\我想学\c++数据结构\预备\testproject1\testproject1\test2.cpp(31): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\win7系统下的项目\专业课作业\我想学\c++数据结构\预备\testproject1\testproject1\test2.cpp(32): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\win7系统下的项目\专业课作业\我想学\c++数据结构\预备\testproject1\testproject1\test2.cpp(34): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\win7系统下的项目\专业课作业\我想学\C++数据结构\预备\testProject1\Debug\testProject1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\win7系统下的项目\专业课作业\我想学\C++数据结构\预备\testProject1\Debug\testProject1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\win7系统下的项目\专业课作业\我想学\C++数据结构\预备\testProject1\Debug\testProject1.lib" /MACHINE:X86 Debug\test1.obj
+         Debug\test2.obj
+         testProject1.vcxproj -> E:\win7系统下的项目\专业课作业\我想学\C++数据结构\预备\testProject1\Debug\testProject1.exe
+     1>已完成生成项目“E:\win7系统下的项目\专业课作业\我想学\C++数据结构\预备\testProject1\testProject1\testProject1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.61
