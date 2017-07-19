@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3TreeProject", "3TreeProject\3TreeProject.vcxproj", "{8665443A-73C8-4ECB-9C22-F95D7639DCE6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3TreeProject01", "3TreeProject01\3TreeProject01.vcxproj", "{0B9BCF89-C5E9-4CCF-B7FF-444B1CADB731}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3TreeProject02", "3TreeProject02\3TreeProject02.vcxproj", "{E0A9268F-3B31-4D18-AC65-5B6C7F4035E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8665443A-73C8-4ECB-9C22-F95D7639DCE6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8665443A-73C8-4ECB-9C22-F95D7639DCE6}.Debug|Win32.Build.0 = Debug|Win32
+		{8665443A-73C8-4ECB-9C22-F95D7639DCE6}.Release|Win32.ActiveCfg = Release|Win32
+		{8665443A-73C8-4ECB-9C22-F95D7639DCE6}.Release|Win32.Build.0 = Release|Win32
+		{0B9BCF89-C5E9-4CCF-B7FF-444B1CADB731}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B9BCF89-C5E9-4CCF-B7FF-444B1CADB731}.Debug|Win32.Build.0 = Debug|Win32
+		{0B9BCF89-C5E9-4CCF-B7FF-444B1CADB731}.Release|Win32.ActiveCfg = Release|Win32
+		{0B9BCF89-C5E9-4CCF-B7FF-444B1CADB731}.Release|Win32.Build.0 = Release|Win32
+		{E0A9268F-3B31-4D18-AC65-5B6C7F4035E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0A9268F-3B31-4D18-AC65-5B6C7F4035E5}.Debug|Win32.Build.0 = Debug|Win32
+		{E0A9268F-3B31-4D18-AC65-5B6C7F4035E5}.Release|Win32.ActiveCfg = Release|Win32
+		{E0A9268F-3B31-4D18-AC65-5B6C7F4035E5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
