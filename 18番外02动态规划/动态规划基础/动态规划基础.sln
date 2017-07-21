@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001硬币问题", "001\001.vcxproj", "{788CDC44-B4FE-4F09-92E1-B011126CDF05}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002数塔问题", "002数塔问题\002数塔问题.vcxproj", "{A296D9FA-53D7-4A2A-975D-83F38BF56DCF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003最长非降子序", "003最长非降子序\003最长非降子序.vcxproj", "{3F654F00-B20B-44B1-80CA-5175F141475F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{788CDC44-B4FE-4F09-92E1-B011126CDF05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{788CDC44-B4FE-4F09-92E1-B011126CDF05}.Debug|Win32.Build.0 = Debug|Win32
+		{788CDC44-B4FE-4F09-92E1-B011126CDF05}.Release|Win32.ActiveCfg = Release|Win32
+		{788CDC44-B4FE-4F09-92E1-B011126CDF05}.Release|Win32.Build.0 = Release|Win32
+		{A296D9FA-53D7-4A2A-975D-83F38BF56DCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A296D9FA-53D7-4A2A-975D-83F38BF56DCF}.Debug|Win32.Build.0 = Debug|Win32
+		{A296D9FA-53D7-4A2A-975D-83F38BF56DCF}.Release|Win32.ActiveCfg = Release|Win32
+		{A296D9FA-53D7-4A2A-975D-83F38BF56DCF}.Release|Win32.Build.0 = Release|Win32
+		{3F654F00-B20B-44B1-80CA-5175F141475F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F654F00-B20B-44B1-80CA-5175F141475F}.Debug|Win32.Build.0 = Debug|Win32
+		{3F654F00-B20B-44B1-80CA-5175F141475F}.Release|Win32.ActiveCfg = Release|Win32
+		{3F654F00-B20B-44B1-80CA-5175F141475F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
