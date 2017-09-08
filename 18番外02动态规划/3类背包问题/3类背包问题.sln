@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01背包问题", "3类背包问题\3类背包问题.vcxproj", "{754E088F-CE08-4760-A218-F4B4B000555F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "完全背包问题", "完全背包问题\完全背包问题.vcxproj", "{4520BCA7-3117-4E84-A967-B7007500911F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多重背包问题", "部分背包问题\部分背包问题.vcxproj", "{FEDD4A14-0494-4A1C-B76F-BBB9E4E7B481}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754E088F-CE08-4760-A218-F4B4B000555F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{754E088F-CE08-4760-A218-F4B4B000555F}.Debug|Win32.Build.0 = Debug|Win32
+		{754E088F-CE08-4760-A218-F4B4B000555F}.Release|Win32.ActiveCfg = Release|Win32
+		{754E088F-CE08-4760-A218-F4B4B000555F}.Release|Win32.Build.0 = Release|Win32
+		{4520BCA7-3117-4E84-A967-B7007500911F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4520BCA7-3117-4E84-A967-B7007500911F}.Debug|Win32.Build.0 = Debug|Win32
+		{4520BCA7-3117-4E84-A967-B7007500911F}.Release|Win32.ActiveCfg = Release|Win32
+		{4520BCA7-3117-4E84-A967-B7007500911F}.Release|Win32.Build.0 = Release|Win32
+		{FEDD4A14-0494-4A1C-B76F-BBB9E4E7B481}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEDD4A14-0494-4A1C-B76F-BBB9E4E7B481}.Debug|Win32.Build.0 = Debug|Win32
+		{FEDD4A14-0494-4A1C-B76F-BBB9E4E7B481}.Release|Win32.ActiveCfg = Release|Win32
+		{FEDD4A14-0494-4A1C-B76F-BBB9E4E7B481}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
