@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FEDD4A14-0494-4A1C-B76F-BBB9E4E7B481}</ProjectGuid>
-    <RootNamespace>部分背包问题</RootNamespace>
-    <ProjectName>完全背包问题</ProjectName>
+    <ProjectGuid>{1EF7FA78-0E1D-4C4D-A21D-04898869F245}</ProjectGuid>
+    <RootNamespace>乘船问题</RootNamespace>
+    <ProjectName>乘船问题_重量</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -63,10 +63,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="002.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="002.cpp" />
+    <ClCompile Include="乘船问题_重量.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

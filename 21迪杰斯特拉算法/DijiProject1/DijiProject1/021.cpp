@@ -2,16 +2,16 @@
 //迪杰斯特拉算法的实现
 #define Maxvex 9 //最大结点数
 #define INFINITY 65535 //无穷值
-typedef int Patharc[Maxvex];//存储路径长度(与书上正好相反)
-typedef int ShortPathTable[Maxvex];//存储到该结点的前驱结点
+typedef int Patharc[Maxvex];//存储到该结点的前驱结点
+typedef int ShortPathTable[Maxvex];//存储路径长度
 void ShortestPath_Dijkstra(int v0, int G[Maxvex][Maxvex], Patharc *p, ShortPathTable *s)
 {
 	int w,k;
 	int fin[Maxvex];//防止重复判断已求出最短路径的点，1为已判断，0为未判断
 	for (w = 0; w < Maxvex; w++)
 	{
-		(*p)[w] = G[v0][w];//初始化路径
-		(*s)[w] = 0;//没有前驱结点
+		(*s)[w] = G[v0][w];//初始化路径
+		(*p)[w] = 0;//没有前驱结点
 		fin[w] = 0;
 	}
 	fin[v0] = 1;
@@ -20,20 +20,20 @@ void ShortestPath_Dijkstra(int v0, int G[Maxvex][Maxvex], Patharc *p, ShortPathT
 		int min = INFINITY;
 		for (w = 0; w < Maxvex;w++)
 		{
-			if (!fin[w]&&(*p)[w]<min)
+			if (!fin[w]&&(*s)[w]<min)
 			{
 				k = w;//求出当前距离起点最近的点，已充当过的点除外
-				min = (*p)[w];
+				min = (*s)[w];
 			}
 		}
 		
 		fin[k] = 1;
 		for (w = 0; w < Maxvex;w++)
 		{
-			if (!fin[w] && (min + G[k][w] < (*p)[w]))
+			if (!fin[w] && (min + G[k][w] < (*s)[w]))
 			{
-				(*p)[w] = min + G[k][w];
-				(*s)[w] = k;//前往w的前驱是k
+				(*s)[w] = min + G[k][w];
+				(*p)[w] = k;//前往w的前驱是k
 			}
 		}
 	}
@@ -60,10 +60,10 @@ int main()
 	//输出到终点的路径，
 	int e=-1;
 	cin >> e;//输入终点
-	cout << "总长度：" << p[e]<<endl;
+	cout << "总长度：" << s[e]<<endl;
 	while (e != v){	
 		cout << e << "<-";
-		e = s[e];
+		e = p[e];
 	}
 	cout << v << endl;
 	//防止窗口关闭

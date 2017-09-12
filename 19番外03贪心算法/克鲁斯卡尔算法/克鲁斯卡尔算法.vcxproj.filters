@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="01.cpp">
+    <ClCompile Include="克鲁斯卡尔算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

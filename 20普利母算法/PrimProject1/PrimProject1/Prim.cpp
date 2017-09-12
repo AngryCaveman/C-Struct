@@ -36,7 +36,7 @@ void Prim(int M[Maxvex][Maxvex])
 		//打印
 		cout << adjvex[k] << " " << k << endl;
 		lowcost[k] = 0;//k被选中
-		//求k结点相邻的结点的权值，并更新lastcost数组
+		//求k结点相邻的结点的权值，并更新lowcost数组
 		for (j = 1; j < Maxvex; j++)
 		{
 			if (lowcost[j] != 0 && M[k][j]<lowcost[j])
